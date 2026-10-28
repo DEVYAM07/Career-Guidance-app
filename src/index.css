@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #14123b;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Custom button active state */
+.neo-button {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.neo-button:hover {
+  transform: translateY(-2px);
+}
+
+.neo-button:active {
+  transform: translateY(1px);
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #14123b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2559;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b357a;
+}
+
