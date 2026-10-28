@@ -47,3 +47,4 @@ Create a `.env` file in the root directory:
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 *(You can also configure the key directly in the app via the in-app Settings modal)*
+
